@@ -1,0 +1,41 @@
+# Project AEGIS - Cyber Defense Dashboard
+
+## Overview
+This project analyzes server log data to detect suspicious activities based on HTTP status codes.
+
+## Features
+- Detects suspicious requests (status code >= 400)
+- Calculates attack percentage
+- Displays results on a simple dashboard
+
+## Tech Stack
+- Python (Flask)
+- Pandas
+- HTML, CSS, JavaScript
+
+## How to Run
+
+1. Install dependencies:
+pip install flask pandas
+
+2. Run backend:
+python app.py
+
+3. Open frontend:
+index.html (use Live Server)
+
+## API Endpoint
+http://127.0.0.1:5000/api/data
+
+## Sample Output
+- Total Requests: 15
+- Suspicious Requests: 6
+- Attack Percentage: 40%
+
+## Future Improvements
+- Real-time monitoring
+- AI-based threat detection
+- Advanced visualization (charts)
+
+## AI Usage
+AI was used for guidance in code structure and debugging.
